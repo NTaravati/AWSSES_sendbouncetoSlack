@@ -1,6 +1,8 @@
 ## AWS SES send Slack notification upon bounce
 Each time an email send through AWS SES bounces, your reputation will be lowered. This script is made to prevent this from happening. Each time a mail bounces, you'll receive the following message in Slack:
 
+![Alt text](screenshot.jpg?raw=true "Title")
+
 ## How does this script work?
 1. Download this repository. 
 2. Create a <a href="https://thecodebarbarian.com/working-with-the-slack-api-in-node-js.html">Slack app (tutorial)</a> and enter the API key inside "./AWSSES-notification/index.js". Don't forget to change the channel name as well.
